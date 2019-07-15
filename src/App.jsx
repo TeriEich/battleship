@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
+import NavBar from './NavBar.jsx';
+import HUD from './HUD.jsx';
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello React :)</h1>
+      <div>
+        <NavBar />
+        <HUD />
+      </div>
     );
   }
 }
