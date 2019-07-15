@@ -43,3 +43,29 @@ body {
   position: fixed;
   right: 0;
 }
+
+.hud-ship-list,
+.hud-controls,
+.hud-turn-info {
+  border: 1px solid black;
+  display: block;
+  /*height: 150px;*/
+  line-height: 40px;
+  /*margin: 5px;*/
+  padding: 0 9px 20px 9px;
+}
+
+.hud-ship-list {
+  flex: 2;
+  min-width: 25%;
+}
+
+.hud-controls {
+  flex: 8;
+  max-width: 40%;
+}
+
+.hud-turn-info {
+  flex: 8;
+  max-width: 25%;
+}
